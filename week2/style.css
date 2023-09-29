@@ -192,3 +192,9 @@ footer a:hover {
 footer p {
     margin: 10px 0 0;
 }
+.cta-container{
+    background-color: #a8eb12;
+    font-size: larger;
+    padding: auto;
+    margin: 10px;
+}
