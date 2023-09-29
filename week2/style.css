@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     background-color: rgb(9, 251, 255);
     color: #505050;
 }
@@ -144,7 +145,7 @@ main h3 {
     padding: 20px;
     margin-top: 30px;
     background-color: #a8eb12;
-    font-family: "Pixelify Sans";
+    font-family: 'Pixelify Sans', cursive;
     font-size: larger;
     padding: auto;
     border: 1px solid #3498db;
