@@ -91,6 +91,12 @@ main {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 .service-column {
     flex-basis: calc(50% - 20px);
     max-width: calc(50% - 20px); 
