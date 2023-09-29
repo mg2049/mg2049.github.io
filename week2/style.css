@@ -147,20 +147,29 @@ main h3 {
     font-family: "Pixelify Sans";
     font-size: larger;
     padding: auto;
+    border: 1px solid #3498db;
     margin: 10px;
 
 }
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
+    padding: 12px 24px; /* Adjust padding */
+    background-color: #FF5733; /* Change background color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border: 2px solid #FF5733; /* Add a border with the same color as the background */
+    border-radius: 30px; /* Increase border-radius for a rounded button */
     font-weight: bold;
     margin-top: 15px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Add transitions for a hover effect */
+    cursor: pointer; /* Change cursor on hover */
+}
+.cta-container h2 {
+    font-size: 28px; /* Increase font size */
+    text-transform: uppercase; /* Make text uppercase */
+    margin-top: 0; /* Remove default top margin */
+    text-decoration: underline; /* Add underline */
 }
 
 .cta-button:hover {
