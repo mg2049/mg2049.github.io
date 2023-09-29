@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(9, 251, 255);
     color: #505050;
 }
 
@@ -90,20 +91,6 @@ main {
     padding: 2rem;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-.services-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.service-column {
-    flex-basis: calc(50% - 20px);
-    max-width: calc(50% - 20px); 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
 main h3 {
     margin-top: 20px;
