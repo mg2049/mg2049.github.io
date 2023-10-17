@@ -34,54 +34,8 @@
     </div>
 
     <button type="submit" value="submit">Submit</button>
+    <script src="script.js"></script>
   </form>
-  <script>
-    const form = document.getElementById("form");
-    const username = document.getElementById("username");
-    const usernameError = document.getElementById("usernameError");
-   
-    username.addEventListener("blur", validateUsername);
-    email.addEventListener("blur", EmailValid);
-    
-    form.addEventListener("submit", function(event) {
-      const isUsernameValid = validateUsername();
-      const isEmailValid =  EmailValid();
-      const isPasswordValid=  PasswordValid();
-      const isConfirmPasswordValid = ConfirmPasswordValid();
-      // Add similar validation for email, password, and confirm password fields here
-
-      if (!isUsernameValid) {
-        event.preventDefault();
-      }
-    });
-
-    function validateUsername() {
-      const usernameValue = username.value.trim();
-      if (usernameValue === "") {
-        usernameError.textContent = "Username cannot be empty.";
-        username.classList.add("error");
-        return false;
-      } else {
-        usernameError.textContent = "";
-        username.classList.remove("error");
-        username.classList.add("success");
-        return true;
-      }
-    }
-
-    function EmailValid() {
-      const emailValue = email.value.trim();
-      if (emailValue === "") {
-        emailError.textContent = "Email cannot be empty.";
-        email.classList.add("error");
-        return false;
-      } else {
-        emailError.textContent = "";
-        email.classList.remove("error");
-        email.classList.add("success");
-        return true;
-      }
-    }
-  </script>
+  
 </body>
 </html>          
