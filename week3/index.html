@@ -30,15 +30,14 @@
         <li><a href="tasks.html">Tasks</a></li>
     </ul>
     </nav>
-    <!-- Main Content Section -->
-    <main class="services">
 
     <!-- Banner Section -->
     <section class="banner-container">
-      <img src="images/1.jpeg" name="slide" alt="Alt goes here" title="Title goes here" width="70%"/>
-      <img src="images/2.jpeg" name="slide" alt="Alt goes here" title="Title goes here" width="70%"/>
+      <img src="images/travel banner.svg" alt="Illustrative banner of travel destinations" class="centered-banner">
     </section>
 
+    <!-- Main Content Section -->
+    <main class="services">
 
       <!-- About Us -->
       <section>
@@ -108,34 +107,5 @@
       <p>&copy; 2024 Wanderlust Voyages | Travel Agency. All rights reserved.</p>
     </footer>
   </div>
-  <script>
-    // 1. Declare a variable and set it to 0 to be the starting point.
-    let currentImageIndex = 0;
-  
-    // 2. Declare images variable which will be an empty array.
-    const images = [
-      'image1.jpg',  // Add the file paths of your images here
-      'image2.jpg',
-      'image3.jpg',
-      // Add more image paths as needed
-    ];
-  
-    // 3. Declare a variable to set the time interval between each image slide, and set it to any time value in ms.
-    const slideInterval = 3000; // Change this value to control the slide duration (in milliseconds).
-  
-    // 5. Create a function to change the source ('src') of the image element with the name 'slide' to display different images from the 'images' array.
-    function changeImage() {
-      const imageElement = document.getElementsByName('slide')[0];
-      imageElement.src = images[currentImageIndex];
-      currentImageIndex = (currentImageIndex + 1) % images.length;
-    }
-  
-    // 6. Run the function to change images every x seconds.
-    setInterval(changeImage, slideInterval);
-  
-    // 7. Run the function when the page loads.
-    window.onload = changeImage;
-  </script>
-  
 </body>
 </html>
