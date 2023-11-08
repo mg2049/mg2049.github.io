@@ -1,5 +1,5 @@
 // Step 1:Variable declaration to store reffrences 
-const userCity = document.getElementById("CityInput"); 
+const userCity = document.getElementById("cityInput"); 
 const weather_info = document.getElementById("weather-info"); 
 const btn = document.getElementById("btn"); 
 
